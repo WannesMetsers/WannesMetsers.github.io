@@ -5,10 +5,11 @@ body {
     margin: 0;
     padding: 2em;
     font-family: Arial, sans-serif;
+    text-align: center;
 }
 
 body > h1 {
-    text-align: left;
+    text-align: center;
 }
 a {
     color: white;
@@ -27,6 +28,8 @@ header {
     z-index: 1000; /* High z-index to prevent overlapping */
     box-sizing: border-box;
 }
+
+
 
 header h1 {
     margin: 0;
@@ -78,6 +81,15 @@ body {
     justify-content: center; /* Centers the divs horizontally in the wrapper */
     align-items: center; /* Vertically aligns the divs in the wrapper */
     margin-top: 25px;
+}
+
+.game {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center; /* Centers the divs horizontally in the wrapper */
+    align-items: center; /* Vertically aligns the divs in the wrapper */
+    margin-top: 50px;
 }
 
 /* Wrapper Styling */
