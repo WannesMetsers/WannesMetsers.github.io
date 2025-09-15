@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Gagalin';
+  src: url("./assets/fonts/Gagalin-Regular.otf") format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font-gagalin {
+  font-family: 'Gagalin', sans-serif;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
