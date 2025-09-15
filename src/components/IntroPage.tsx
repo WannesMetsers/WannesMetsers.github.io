@@ -6,7 +6,7 @@ import exampleImage from '../assets/dakSchoonmaker.jpg'; // Replace with your im
 const TextImage: React.FC = () => {
   return (
     
-    <div className="flex flex-col md:flex-row items-start md:justify-between bg-blue-950 p-6 ">
+    <div className="flex flex-col md:flex-row items-start md:justify-between bg-blue-950 p-6 h-[70vh]">
       
       {/* Text Section */}
 
@@ -34,7 +34,7 @@ const TextImage: React.FC = () => {
 
       {/* Image Section */}
       <div className="md:w-1/2 ">
-        <img src={exampleImage} alt="Cleaning" className="w-full h-full object-cover" />
+        <img src={exampleImage} alt="Cleaning" className="w-full h-[65vh] object-cover" />
       </div>
 
     </div>
