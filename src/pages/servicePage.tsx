@@ -8,7 +8,7 @@ const Home: React.FC = () => {
    <div>
     <Navbar />
       <div className="flex items-center justify-center h-screen">
-        <h1 className="text-9xl font-normal text-black font-gagalin">
+        <h1 className="text-9xl font-normal text-black">
           Dit word een pagina voor een dienst.
         </h1>
       </div>

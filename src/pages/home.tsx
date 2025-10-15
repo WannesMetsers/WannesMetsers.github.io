@@ -14,10 +14,10 @@ const Home: React.FC = () => {
       <div id="home">
         <IntroPage />
       </div>
-      <div id="reviews">
+     {/*  <div id="reviews">
         <Reviews />
-      </div>
-      <div id="onzediensten">
+      </div> */}
+      <div id="Mijn Vaardigheden">
         <ServicesCarousel />
       </div>
        <div id="contact">

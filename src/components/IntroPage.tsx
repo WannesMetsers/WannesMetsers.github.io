@@ -1,16 +1,16 @@
 // src/components/TextImage.tsx
 import React from 'react';
-import exampleImage from '../assets/dakSchoonmaker.jpg'; // Replace with your image path
+import exampleImage from '../assets/cvBewerktFoto.png'; // Replace with your image path
 
 
 const TextImage: React.FC = () => {
   return (
     
-    <div className="flex flex-col md:flex-row items-start md:justify-between bg-blue-950 p-6 h-[70vh]">
+    <div className="flex flex-col md:flex-row items-start md:justify-between bg-blue-950 p-6 h-[80vh]">
       
       {/* Text Section */}
 
-      <div className="md:w-1/2 text-center md:text-left mb-4 md:mb-0 text-white ">
+      <div className="md:w-1/2 text-center md:text-left mb-4 md:mb-0 text-white overflow-auto ">
         {/*  <div className="flex items-center">
             <img src={logo} alt="logo" className="size-40" />
             <div className="text-8xl font-light leading-tight font-gagalin">
@@ -19,14 +19,15 @@ const TextImage: React.FC = () => {
               
             </div>
           </div> */}
-        <h1 className="text-5xl font-bold">Schoonmaakservice voor uw bedrijf</h1><br />
+        <h1 className="text-5xl font-bold">De perfecte stagiair voor uw bedrijf!</h1><br />
         <p className="text-3xl font-light pr-30 pl-20">
-            Bent u opzoek naar een Schoonmaakbedrijf in gent? <br /> <br />
-          Bij Octopus Cleaning zorgen we dat alles weer blinkt. Van ramen en zonnepanelen tot boten, wagens en kantoren, wij maken alles grondig en professioneel schoon. Met oog voor detail en betrouwbare service laten wij uw ruimtes stralen.
-        </p>
+            Bent u opzoek naar een gemotiveerde, capable stagiair? <br /> <br />
+          Dan hebt u hem gevonden! Ik ben een gemotiveerde, hardwerkende en leergierige student die graag nieuwe uitdagingen aangaat. Ik ben iemand die zich volledig inzet voor wat hij doet en altijd bereid is een stapje extra te zetten om een goed resultaat te behalen. <br /> <br /> Een stage bij uw organisatie zie ik als een geweldige kans om mijn kennis verder te ontwikkelen, praktijkervaring op te doen en actief bij te dragen aan uw team. Hopelijk mag ik binnenkort mijn enthousiasme en inzet ook persoonlijk laten zien — als uw toekomstige stagiair.
+        </p><a href="/#mijn-vaardigheden">
         <button className="bg-gray-500 hover:bg-gray-700 text-white font-bold py-3 px-6 rounded-lg shadow-lg transition transform hover:-translate-y-1 hover:scale-105 mt-6 mx-auto block">
-          Vraag offerte aan
+          Mijn vaardigheden
         </button>
+        </a>
 
 
       </div>
@@ -34,7 +35,7 @@ const TextImage: React.FC = () => {
 
       {/* Image Section */}
       <div className="md:w-1/2 ">
-        <img src={exampleImage} alt="Cleaning" className="w-full h-[65vh] object-cover" />
+        <img src={exampleImage} alt="ProfielFoto" className="w-[85vh] h-[124vh] object-cover" />
       </div>
 
     </div>

@@ -1,27 +1,27 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom"; // import Link for routing
 
-import solarImage from "../assets/dakSchoonmaker.jpg";
-import wagenImage from "../assets/wagen.jpg";
-import officeImage from "../assets/office.jpg";
+import solarImage from "../assets/Web-Development.jpg";
+import wagenImage from "../assets/Software-Development-Models.avif";
+import officeImage from "../assets/Godot.png";
 
 const services = [
   {
-    name: "Zonnepanelen reinigen",
+    name: "Web Development",
     image: solarImage,
-    description: "Reiniging van zonnepanelen voor maximale efficiëntie.",
+    description: "HTML, CSS, JavaScript, React",
     path: "/service/zonnepanelen",
   },
   {
-    name: "Wagen schoonmaak",
+    name: "Software Development",
     image: wagenImage,
-    description: "Grondige schoonmaak van wagens, binnen en buiten.",
-    path: "/service/wagen",
+    description: "Scalable, betrouwbare en onderhoudbare systemen bouwen met C# en Java. Bv. API's en enterprise applicaties.",
+    path: "/service/software-development",
   },
   {
-    name: "Kantoor schoonmaken",
+    name: "Game Development",
     image: officeImage,
-    description: "Specialistische schoonmaak voor kantoren.",
+    description: "3D en 2D games maken via Godot.",
     path: "/service/kantoor",
   },
 ];
@@ -40,11 +40,11 @@ const StackedImages: React.FC = () => {
   }, [hoveredIndex]);
 
   return (
-  <div className="relative w-full flex flex-col items-center overflow-visible bg-blue-950 py-12 h-[100vh]" >
+  <div className="relative w-full flex flex-col items-center overflow-visible bg-gray-100 py-12 h-[110vh]" >
     
     {/* Title at the top */}
-    <h2 className="text-5xl font-bold text-white mb-12">
-      Onze Diensten
+    <h2 className="text-5xl font-bold text-black mb-12">
+      Mijn vaardigheden
     </h2>
 
     {/* Stacked Images */}
@@ -59,7 +59,7 @@ const StackedImages: React.FC = () => {
             key={index}
             className="transition-all duration-500 cursor-pointer rounded-xl shadow-lg flex-shrink-0 overflow-hidden block relative"
             style={{
-              transform: `translateX(${index * -120}px) scale(${isFocused ? 1.05 : 0.95})`,
+              transform: `translateX(${index * -5}px) scale(${isFocused ? 1.05 : 0.95})`,
               zIndex: isFocused ? 10 : index,
               filter: isFocused ? "brightness(100%)" : "brightness(70%)",
               marginLeft: index === 0 ? 0 : "-100px",
