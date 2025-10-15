@@ -3,7 +3,7 @@ import React from 'react';
 import Navbar from '../components/Navbar.tsx';
 import IntroPage from '../components/IntroPage.tsx'
 import ServicesCarousel from '../components/ServicesCarousel.tsx'
-import Reviews from '../components/Review.tsx'
+// import Reviews from '../components/Review.tsx'
 import Contact from '../components/Contact.tsx'
 import Footer from '../components/Footer.tsx'
 
@@ -17,7 +17,7 @@ const Home: React.FC = () => {
      {/*  <div id="reviews">
         <Reviews />
       </div> */}
-      <div id="Mijn Vaardigheden">
+      <div id="mijn vaardigheden">
         <ServicesCarousel />
       </div>
        <div id="contact">
