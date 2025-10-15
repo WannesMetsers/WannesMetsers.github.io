@@ -1,18 +1,16 @@
 {
-  "name": "octopus-cleaning",
+  "name": "wannesmetsers",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "homepage": "https://wannesmetsers.github.io/",
   "scripts": {
-     "predeploy": "npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "dev": "vite",
-
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
-   
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.13",
